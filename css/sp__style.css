@@ -1,0 +1,211 @@
+@media screen and (max-width: 599px) {
+  #fullpage .section__title {
+    font-size: 3rem;
+  }
+  #fullpage .title-wrap {
+    margin-left: 0;
+  }
+  #fullpage .about__container,
+  #fullpage .skill__container,
+  #fullpage .work__container {
+    display: block;
+  }
+  .fv::after {
+    content: "";
+    background-image: url(../images/circle_sp.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+    width: 111%;
+    height: 7rem;
+    z-index: 0;
+  }
+  .fv .fv__title {
+    font-size: 3rem;
+  }
+  .fv .scroll {
+    bottom: 0%;
+  }
+  .fv .scroll__icon {
+    font-size: 1.2rem;
+  }
+  .about .profile__name {
+    font-size: 1.6rem;
+  }
+  .about .profile__name--en,
+  .about .about__content {
+    font-size: 1.4rem;
+    line-height: 1.75;
+  }
+  .about .about__container {
+    margin: 18.5% 4.1% 0 12.5%;
+    width: 83%;
+  }
+  .about .profile {
+    padding-left: 0;
+    width: 100%;
+  }
+  .about .prf-wrap {
+    margin: 12.3% 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about .cloud1-wrap {
+    width: 9.8rem;
+    height: 3.2rem;
+    position: absolute;
+    top: 6%;
+    left: 5%;
+  }
+  .about .cloud-s1-wrap {
+    width: 5.3rem;
+    height: 2.6rem;
+    position: absolute;
+    top: 15%;
+    right: 27%;
+  }
+  .about .cloud2-wrap {
+    width: 22.2rem;
+    height: 7.7rem;
+    position: absolute;
+    top: 14.5%;
+    right: -5%;
+  }
+  .about .cloud3-wrap {
+    width: 13.8rem;
+    height: 5.7rem;
+    position: absolute;
+    bottom: 7%;
+    left: -2%;
+  }
+  .about .cloud4-wrap {
+    width: 23.1rem;
+    height: 10.2rem;
+    position: absolute;
+    bottom: 1%;
+    right: -5%;
+    overflow: hidden;
+  }
+  .skill .pc-img-wrap {
+    width: 14.8rem;
+    height: 14.5rem;
+    top: 22%;
+    left: 18%;
+  }
+  .skill .sp-img-wrap {
+    width: 6.8rem;
+    height: 8.3rem;
+    top: 28.5%;
+    right: 30%;
+  }
+  .skill .skill__container {
+    margin: 18.5% 4.1% 0 12.5%;
+  }
+  .skill .skill__wrap {
+    width: 100%;
+    margin-top: 15.3rem;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .skill .skill__html, .skill .skill__css {
+    width: 6.8rem;
+    height: 6.8rem;
+    line-height: 6.8rem;
+  }
+  .skill .skill__js, .skill .skill__gitgub {
+    width: 5.6rem;
+    height: 5.6rem;
+    line-height: 5.6rem;
+  }
+  .skill .skill__php, .skill .skill__wordpress, .skill .skill__mysql {
+    width: 4.3rem;
+    height: 4.3rem;
+    line-height: 4.3rem;
+    font-size: 1.2rem;
+  }
+  .skill .skill--common {
+    font-size: 0rem;
+    margin-right: 10px;
+  }
+  .skill .skill__list {
+    padding-top: 0;
+  }
+  .skill .skill__content, .skill span {
+    font-size: 1.4rem;
+  }
+  .skill .skill-cloud-wrap1 {
+    width: 15.6rem;
+    height: 5.9em;
+    position: absolute;
+    top: 0%;
+    left: -5%;
+  }
+  .skill .skill-cloud-wrap2 {
+    width: 7.1rem;
+    height: 3.1em;
+    position: absolute;
+    top: 23%;
+    left: 22%;
+  }
+  .skill .skill-cloud-wrap3 {
+    width: 18.7rem;
+    height: 6.5em;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+  }
+  .skill .skill-cloud-wrap4 {
+    width: 9.3rem;
+    height: 3.2em;
+    position: absolute;
+    top: 25%;
+    right: -5%;
+  }
+  .skill .skill-cloud-wrap5 {
+    width: 21.1rem;
+    height: 7.2em;
+    position: absolute;
+    left: -2%;
+    bottom: 0;
+  }
+  .skill .skill-cloud-wrap6 {
+    width: 3.8rem;
+    height: 2.5em;
+    position: absolute;
+    left: 17%;
+    bottom: 22%;
+  }
+  .skill .skill-cloud-wrap7 {
+    width: 3.5rem;
+    height: 1.7em;
+    position: absolute;
+    bottom: 5%;
+    right: 28%;
+  }
+  .skill .skill-cloud-wrap8 {
+    width: 7.7rem;
+    height: 4em;
+    position: absolute;
+    bottom: 2%;
+    right: 9.8%;
+  }
+  .skill .skill__wordpress span {
+    font-size: 1.1rem;
+    line-height: 1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .skill .br-pc {
+    display: none;
+  }
+  #fp-nav ul li {
+    margin-bottom: 7px;
+  }
+}
+/*# sourceMappingURL=sp__style.css.map */
